@@ -1,0 +1,5 @@
+---
+error-permission: "you dont have permission for /sell"
+error-nopermission-sellHand: "you dont have permission for /sell hand"
+error-nopermission-sellAll: "you dont have permission for /sell all"
+...
