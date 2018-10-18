@@ -1,0 +1,22 @@
+name: Sell
+api: [3.0.0]
+main: Sell\Main
+version: 3.0.0
+author: [Muqsit]
+authors: [KairusDarkSeeker, JackMD, ProxyTechDevs]
+depend: EconomyAPI
+commands:
+  sell:
+    description: ""
+    permission: sell.command
+permissions:
+  sell:
+    default: true
+    children:
+      sell.hand:
+        default: true
+      sell.all:
+        default: true
+      sell.command:
+        default: true
+...
